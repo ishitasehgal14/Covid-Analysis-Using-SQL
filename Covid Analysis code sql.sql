@@ -24,7 +24,7 @@ ORDER BY
  location,
  date
 
- -- Total Cases vs Total deaths in Ghana
+ -- Total Cases vs Total deaths in India
  SELECT
  location,
  date,
@@ -34,7 +34,7 @@ ORDER BY
 FROM
  CovidDeaths
 WHERE
- location LIKE '%ghana%'
+ location LIKE '%india%'
 ORDER BY
  location,
  date
@@ -52,7 +52,7 @@ ORDER BY
  location,
  date
 
--- Total Cases vs Population in Ghana
+-- Total Cases vs Population in India
 SELECT
  location,
  date,
@@ -62,7 +62,7 @@ SELECT
 FROM
  CovidDeaths
 WHERE
- location LIKE '%ghana%'
+ location LIKE '%india%'
 ORDER BY
  location,
  date
